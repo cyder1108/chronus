@@ -1,0 +1,23 @@
+{
+  "name": "chronus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyder1108/chronus.git"
+  },
+  "author": "Kazushi Kaneko <kazushi.kaneko.194@gmail.com> (https://github.com/cyder1108)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyder1108/chronus/issues"
+  },
+  "homepage": "https://github.com/cyder1108/chronus#readme",
+  "devDependencies": {
+    "ava": "^3.4.0"
+  },
+  "dependencies": {}
+}
