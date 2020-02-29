@@ -1,7 +1,5 @@
 import test from "ava"
-import Chronus from "../index.mjs"
-
-const c = (i) => new Chronus(i)
+import c from "../index.mjs"
 
 test("test", (t) => {
   t.is( c(1).year().toInteger(), 31536000000 );
