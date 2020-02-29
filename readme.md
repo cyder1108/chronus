@@ -1,11 +1,11 @@
 時間（期間）を取り扱うライブラリ
 
-#Instatll
+# Install
 ~~~
 npm install cyder1108/chronus
 ~~~
 
-#Example
+# Example
 ~~~
 import Chronuns from "chronus"
 const c = (i) => new Chronus(i)
