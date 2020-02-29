@@ -7,8 +7,7 @@ npm install cyder1108/chronus
 
 # Example
 ~~~
-import Chronuns from "chronus"
-const c = (i) => new Chronus(i)
+import c from "chronus"
 ~~~
 
 ~~~
