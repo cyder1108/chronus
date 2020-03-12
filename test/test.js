@@ -1,5 +1,5 @@
-import test from "ava"
-import c from "../index.mjs"
+const test = require("ava")
+const c = require("../index.js")
 
 test("test", (t) => {
   t.is( c(1).year().toInteger(), 31536000000 );

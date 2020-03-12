@@ -1,6 +1,6 @@
 "use strict";
 
-export class Chronus {
+class Chronus {
 
   constructor( len ) {
     this.len = len;
@@ -92,6 +92,6 @@ export class Chronus {
   }
 }
 
-export default function c(len) {
+module.exports =  function c(len) {
   return new Chronus(len);
 }
